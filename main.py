@@ -10,7 +10,3 @@ def index():
     json_dump = json.dumps(data_set)
 
     return json_dump
-
-
-if __name__ == '__main__':
-    app.run(port=7777)
