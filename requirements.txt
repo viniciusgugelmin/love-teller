@@ -16,5 +16,3 @@ pyngrok==5.2.1
 pywin32-ctypes==0.2.0
 PyYAML==6.0
 userpath==1.8.0
-vboxapi==1.0
-Werkzeug==2.2.2
