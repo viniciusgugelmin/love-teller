@@ -49,10 +49,22 @@ $ git clone https://github.com/viniciusgugelmin/love-teller
 $ cd love-teller
 ```
 
+Install the dependencies
+
+```bash
+$ pip install requirements.txt
+```
+
 Run the application:
 
 ```bash
-$ npm run dev
+$ gunicorn app:app
+```
+
+Or with:
+
+```bash
+$  waitress-serve --listen=127.0.0.1:5000 app:app
 ```
 
 <a name="contributing"></a>
