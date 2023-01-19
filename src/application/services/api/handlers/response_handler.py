@@ -1,8 +1,7 @@
 from flask import make_response, jsonify
 
 
-def response_handler(message, status_code=200, data=None):
-
+def response_handler(message: str, status_code=200, data=None):
     response = {
         "message": message,
         "status": "",
